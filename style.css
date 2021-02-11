@@ -1,0 +1,59 @@
+h1
+{
+	color: red;
+	font-family: cursive;
+}
+h2
+{
+	
+	color: orange;
+	font-family: cursive;
+}
+
+h3 {
+	color: forestgreen;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body
+{
+	background-color: rgb(148, 243, 243);
+	margin: 2cm;
+}
+img {
+	max-width: 50%;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: white;
+}
+
+.navbar a {
+	float: none;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navbar a:hover {
+	background-color: black;
+	color: wheat;
+}
+
+.navbar a.active {
+	background-color: rgb(66, 235, 103);
+	color: slateblue;
+}
+
+
+#carte
+{
+		width:800px;
+		margin:0 auto;
+		background-color: white;
+		text-align: center; 
+}
