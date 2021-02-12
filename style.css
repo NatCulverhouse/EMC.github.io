@@ -43,7 +43,7 @@ img {
 
 .footer {
 	background: dimgray;
-    padding: 20px 100px;
+    padding: 10px 10px;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -86,10 +86,60 @@ img {
 }
 
 .logo {
-	border-radius: 25%;
+	border-radius: 40%;
 	max-width: 30%;
+	width: auto;
 }
 
+.text {
+	color: maroon;
+	font-size: large;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-transform: uppercase;
+}
+
+.sources {
+	text-align: center;
+
+}
+.sources a {
+	float: none;
+	display: block;
+	color: peru;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: x-large;
+	text-transform: uppercase;
+}
+
+.sources a:hover {
+	background-color: dimgrey;
+	color: lightgrey;
+}
+.plan {
+	text-align: center;
+
+}
+.plan a {
+	float: none;
+	display: block;
+	color: cornflowerblue;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: x-large;
+	text-transform: uppercase;
+}
+
+.plan a:hover {
+	background-color: lightgrey;
+	color: dimgray;
+}
 #carte
 {
 		width:800px;
