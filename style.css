@@ -36,6 +36,14 @@ img {
 	max-width: 95%;
 }
 
+.footer {
+	background: dimgray;
+    padding: 20px 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .navbar {
 	overflow: hidden;
 	background-color: white;
@@ -64,11 +72,20 @@ img {
 	text-transform: uppercase;
 }
 
+.cdlink {
+	color: silver;
+	text-align: right;
+}
+
+.logo {
+	border-radius: 25%;
+	max-width: 30%;
+}
 
 #carte
 {
 		width:800px;
 		margin:0 auto;
-		background-color: white;
+		background-color: beige;
 		text-align: center; 
 }
