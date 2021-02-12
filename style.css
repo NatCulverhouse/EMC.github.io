@@ -1,13 +1,16 @@
 h1
 {
 	color: red;
+	font-weight: bolder;
 	font-style: oblique;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	font-variant-caps: all-petite-caps;
+	font-size: 12mm;
+	margin: 1cm;
 }
 h2
 {
-	
+	margin: 1cm;
 	color: orange;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -15,16 +18,18 @@ h2
 h3 {
 	color: forestgreen;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	margin: 1cm;
 }
 
 h4 {
 	color: darkkhaki;
-	
+	margin: 1cm;
 }
 
 p {
 	color: black;
 	font-family: Arial, Helvetica, sans-serif;
+	margin: 1cm;
 }
 
 body
@@ -46,17 +51,20 @@ img {
 
 .navbar {
 	overflow: hidden;
-	background-color: white;
+	background-color: rgb(39, 39, 39);
 }
 
 .navbar a {
 	float: none;
 	display: block;
-	color: black;
+	color: silver;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: x-large;
+	text-transform: uppercase;
 }
 
 .navbar a:hover {
