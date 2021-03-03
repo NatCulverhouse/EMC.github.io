@@ -54,6 +54,14 @@ img {
 	max-width: 95%;
 }
 
+.escaliers {
+	width: 50%;
+}
+
+.pourquoi {
+	width: 35vw;
+}
+
 .footer {
 	background: dimgray;
     padding: 10px 10px;
